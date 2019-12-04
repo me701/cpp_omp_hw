@@ -1,6 +1,9 @@
 // Exercise 2
 // Add to arrays (here, std::vectors) in parallel using
 // only the parallel directive and the thread id and count.
+//
+// Compile using 
+// $$ g++ -O3 -fopenmp vector_add_1.cc -o vector_add_1
 #include <omp.h>
 #include <cstdio>
 #include <vector>

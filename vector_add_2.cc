@@ -1,7 +1,9 @@
 // Exercise 3
 // Modify the vector addition from last time to use
 // an omp for directive.
-
+//
+// Compile using 
+// $$ g++ -O3 -fopenmp vector_add_2.cc -o vector_add_2
 #include <omp.h>
 #include <cstdio>
 #include <vector>
